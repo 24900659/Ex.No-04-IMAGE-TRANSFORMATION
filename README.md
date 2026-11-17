@@ -39,6 +39,7 @@ Save or display the final transformed images for analysis and use plt.show() to 
 
 Program:
 i) Original Image
+#  Original Image
 ```
 import cv2
 import matplotlib.pyplot as plt
@@ -52,7 +53,7 @@ plt.show()
 ```
 
 ii)Image Translation
-
+# Image Translation
 ```
 tx = 100
 ty = 200
@@ -68,6 +69,7 @@ plt.axis("off")
 plt.show()
 ```
 iii)Image Scaling
+# Image Scaling
 ```
 fx = 2.0
 fy = 2.0
@@ -84,7 +86,7 @@ plt.axis("off")
 plt.show()
 ```
 iv)Image shearing
-
+# Image shearing
 ```
 shear_matrix = np.float32([
     [1, 0.5, 0],
@@ -101,7 +103,7 @@ plt.axis("off")
 plt.show()
 ```
 v)Image Reflection
-
+# Image Reflection
 ```
 reflected_image = cv2.flip(image, 1)
 
@@ -134,6 +136,7 @@ plt.axis("off")
 plt.show()
 ```
 vii)Image Cropping
+# Image Cropping
 ```
 cropped_image = image[50:250, 100:350]
 
@@ -142,6 +145,8 @@ plt.title("Cropped Image")
 plt.axis("off")
 plt.show()
 ```
+
+
 Output:
 i) Original Image
 <img width="625" height="422" alt="image" src="https://github.com/user-attachments/assets/922c3352-1cf8-4b6d-a754-079259952f62" />
