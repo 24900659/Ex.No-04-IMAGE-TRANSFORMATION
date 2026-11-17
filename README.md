@@ -38,8 +38,8 @@ Step5:
 Save or display the final transformed images for analysis and use plt.show() to display them inline in Jupyter or compatible environments.
 
 Program:
-i) Original Image
-#  Original Image
+
+# i)Original Image
 ```
 import cv2
 import matplotlib.pyplot as plt
@@ -52,8 +52,8 @@ plt.axis("off")
 plt.show()
 ```
 
-ii)Image Translation
-# Image Translation
+
+# ii) Image Translation
 ```
 tx = 100
 ty = 200
@@ -68,8 +68,8 @@ plt.title("Translated Image")
 plt.axis("off")
 plt.show()
 ```
-iii)Image Scaling
-# Image Scaling
+
+# iii)Image Scaling
 ```
 fx = 2.0
 fy = 2.0
@@ -85,8 +85,8 @@ plt.title("Scaled Image")
 plt.axis("off")
 plt.show()
 ```
-iv)Image shearing
-# Image shearing
+
+# iv) Image shearing
 ```
 shear_matrix = np.float32([
     [1, 0.5, 0],
@@ -102,8 +102,8 @@ plt.title("Sheared Image")
 plt.axis("off")
 plt.show()
 ```
-v)Image Reflection
-# Image Reflection
+
+# v) Image Reflection
 ```
 reflected_image = cv2.flip(image, 1)
 
@@ -119,8 +119,8 @@ plt.axis("off")
 
 plt.show()
 ```
-vi)Image Rotation
-# Image Rotation
+
+# vi)Image Rotation
 ```
 angle = 45
 
@@ -135,8 +135,8 @@ plt.title("Rotated Image")
 plt.axis("off")
 plt.show()
 ```
-vii)Image Cropping
-# Image Cropping
+
+# vii)Image Cropping
 ```
 cropped_image = image[50:250, 100:350]
 
@@ -148,25 +148,25 @@ plt.show()
 
 
 Output:
-i) Original Image
+# i)  Original Image
 <img width="625" height="422" alt="image" src="https://github.com/user-attachments/assets/922c3352-1cf8-4b6d-a754-079259952f62" />
 
-ii)Image Translation
+# ii)Image Translation
 <img width="642" height="437" alt="image" src="https://github.com/user-attachments/assets/02fa9dbd-c94f-4f1e-8759-1737092105a0" />
 
-iii) Image Scaling
+# iii) Image Scaling
 <img width="652" height="446" alt="image" src="https://github.com/user-attachments/assets/8816755a-4252-493a-8789-86aac6b91cee" />
 
-iv)Image shearing
+# iv)Image shearing
 <img width="658" height="442" alt="image" src="https://github.com/user-attachments/assets/80ea1bb1-8b6c-44c2-9191-9a3c36df8c9b" />
 
-v)Image Reflection
+# v)Image Reflection
 <img width="658" height="247" alt="image" src="https://github.com/user-attachments/assets/12c7dd49-b7dd-4c47-b870-147960387b56" />
 
-vi)Image Rotation
+# vi)Image Rotation
 <img width="636" height="426" alt="image" src="https://github.com/user-attachments/assets/a4cc78ac-745a-4af3-b035-3b1ac66e1682" />
 
-vii)Image Cropping
+# vii)Image Cropping
 <img width="630" height="497" alt="image" src="https://github.com/user-attachments/assets/d4e13ac7-fa5e-45c9-b273-767553343b73" />
 
 Result:
